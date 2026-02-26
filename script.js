@@ -25,5 +25,5 @@ if(sym1==sym2)
 }
 else
 {
-    console.log("false") //because Each Symbol is Unique
+    console.log("false")
 }
