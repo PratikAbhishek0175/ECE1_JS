@@ -13,7 +13,23 @@
 //node.prepend() //adds at the start of node(inside)
 //node.before() //adds before the node(outside)
 //node.after() //adds after the node(outside)
-
+//mouse events
+//onmouse click
+//onmouse over
+//onmouse out
+//onmouse move
+//onmouse up
+//onmouse down
+//onmouse dblclick
+//keyboard events
+//onfocus event onfocus
+//onblur event onblur
+//onchange event onchange
+//oninput event oninput
+//onsubmit event onsubmit
+//window event
+//onunload event onunload
+//onresize event onresize
 
 //const result=document.getElementById("jk");
 //console.log(result);
@@ -24,3 +40,24 @@
 //result1[0].innerHTML="Jitendra";
 //const result=document.getElementById("jk").getAttribute("class")
 //document.getElementById("p1").innerHTML=result;
+function onclick(){
+    condsole.log("Clicked")
+}
+function onmouseover(){
+    console.log("on mouse over")
+}
+function onmouseout(){
+    console.log("on mouse over")
+}
+function onmousemove(){
+    console.log("on mouse move")
+}
+function onmouseup(){
+    console.log("on mouse up")
+}
+function onmousedown(){
+    console.log("on mouse down")
+}
+function onlousedblclick(){
+    console.log("on mouse double click")
+}
