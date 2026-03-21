@@ -104,5 +104,5 @@
 // localstorage.removeItem("name");
 
  //store object
- var user = (name:"Jeet", age:50);
- localstorage.setItem("user",JSON.stringify(user));
+//  var user = (name:"Jeet", age:50);
+//  localstorage.setItem("user",JSON.stringify(user));
