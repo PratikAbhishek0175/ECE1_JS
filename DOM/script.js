@@ -40,24 +40,69 @@
 //result1[0].innerHTML="Jitendra";
 //const result=document.getElementById("jk").getAttribute("class")
 //document.getElementById("p1").innerHTML=result;
-function onclick(){
-    condsole.log("Clicked")
-}
-function onmouseover(){
-    console.log("on mouse over")
-}
-function onmouseout(){
-    console.log("on mouse over")
-}
-function onmousemove(){
-    console.log("on mouse move")
-}
-function onmouseup(){
-    console.log("on mouse up")
-}
-function onmousedown(){
-    console.log("on mouse down")
-}
-function onlousedblclick(){
-    console.log("on mouse double click")
-}
+//function onclick(){
+//    condsole.log("Clicked")
+//}
+//function onmouseover(){
+//    console.log("on mouse over")
+//}
+//function onmouseout(){
+//    console.log("on mouse over")
+//}
+//function onmousemove(){
+//    console.log("on mouse move")
+//}
+//function onmouseup(){
+//    console.log("on mouse up")
+//}
+//function onmousedown(){
+//    console.log("on mouse down")
+//}
+//function onlousedblclick(){
+//    console.log("on mouse double click")
+//}
+
+
+//Asynchronous Programming
+//let promise = new promise((resolve,reject)=>{
+//    let success = true;
+//    if(success)
+//        resolve("Data Loaded");
+//    else
+//        reject("Error Occurred")
+//});
+//promise.then((result) => console.log(result)).catch((error));
+//resolve then staatement is executed and reject catch statement is executed.
+
+//synchronous event
+//async function getData(){
+//    let response = await fetch("https://jsonplaceholder.typocode.com/users");
+//    let data = await response.json();
+//    console.log(data);
+//}
+//getData();
+
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//     .then(response => response.json())
+//     .then(data => console.log(data))
+//     .catch(error => console.log(error))
+
+// try {
+//     var x = y++;
+// } catch (error) {
+//     console.log
+// }
+
+// //local storage
+// localStorage.setItem("name","Jeet");
+
+// //retrive Data
+// var name1 = localStorage.getItem("name");
+// console.log(name1);
+
+// //remove item
+// localstorage.removeItem("name");
+
+ //store object
+ var user = (name:"Jeet", age:50);
+ localstorage.setItem("user",JSON.stringify(user));
